@@ -30,7 +30,7 @@ A simple SPA with a few E2E testing examples using Cypress.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running follow these simple steps:
 
 ### Installation
 
@@ -50,7 +50,7 @@ npm start
 ```sh
 npm run e2e
 ```
-6. Select the test spec you want to run in the Cypress window.
+6. Select the test spec you want to run in the Cypress window
 
 
 
