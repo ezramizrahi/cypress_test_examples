@@ -19,6 +19,9 @@
     "eject": "react-scripts eject",
     "e2e": "cypress open"
   },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -35,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^5.4.0"
+    "cypress": "^6.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.1"
   }
 }
