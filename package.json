@@ -17,10 +17,19 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "e2e": "cypress open"
+    "e2e": "cypress open",
+    "features": "cypress run --browser chrome --spec \"cypress/integration/*\".feature",
+    "reporter": "node \"cypress/support/cucumber-html-reporter.js\"",
+    "e2e_tests_with_report": "npm run features; npm run reporter"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "cucumber-html-reporter": "^5.3.0",
     "cypress": "^6.5.0",
     "cypress-cucumber-preprocessor": "^4.0.1"
   }

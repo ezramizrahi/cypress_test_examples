@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search",
+    "line": 1,
+    "id": "search",
+    "tags": [],
+    "uri": "Search.feature",
+    "elements": [
+      {
+        "id": "search;search-with-correct-capitalization",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Search with correct capitalization",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 620000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter a capitalized search term",
+            "result": {
+              "status": "passed",
+              "duration": 359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the correct result",
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search;search-with-all-lowercase-characters",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Search with all lowercase characters",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I enter an all lowercase search term",
+            "result": {
+              "status": "passed",
+              "duration": 351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the correct result",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search;search-with-all-uppercase-characters",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Search with all uppercase characters",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I enter an all uppercase search term",
+            "result": {
+              "status": "passed",
+              "duration": 343000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see the correct result",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
