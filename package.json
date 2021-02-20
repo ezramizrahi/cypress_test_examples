@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "e2e": "cypress open",
-    "features": "cypress run --browser chrome --spec \"cypress/integration/*\".feature",
+    "features": "cypress run --browser chrome --spec \"cypress/integration/*.feature\"",
     "reporter": "node \"cypress/support/cucumber-html-reporter.js\"",
     "e2e_tests_with_report": "npm run features; npm run reporter"
   },
